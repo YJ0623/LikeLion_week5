@@ -1,0 +1,42 @@
+[
+  {
+    "category": "clothing",
+    "name": "casual t-shirt",
+    "price": "$24.99"
+  },
+  {
+    "category": "clothing",
+    "name": "denim jacket",
+    "price": "$59.99"
+  },
+  {
+    "category": "accessories",
+    "name": "leather backpack",
+    "price": "$79.99"
+  },
+  {
+    "category": "accessories",
+    "name": "silver necklace",
+    "price": "$39.99"
+  },
+  {
+    "category": "footwear",
+    "name": "running shoes",
+    "price": "$89.99"
+  },
+  {
+    "category": "footwear",
+    "name": "ankle boots",
+    "price": "$129.99"
+  },
+  {
+    "category": "clothing",
+    "name": "cotton hoodie",
+    "price": "$44.99"
+  },
+  {
+    "category": "accessories",
+    "name": "beanie hat",
+    "price": "$14.99"
+  }
+]
