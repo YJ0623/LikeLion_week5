@@ -15,7 +15,7 @@ export const NavBar = () => {
 
         {/* 데스크탑 nav */}
         <nav className="hidden dt:flex items-center gap-8 text-gray-700">
-          <Link to="/">Home</Link>
+          <Link to="/">ShopMall</Link>
         </nav>
       </div>
 
@@ -26,7 +26,7 @@ export const NavBar = () => {
           <Link to="/profile">
             <img src={ProfileIcon} alt="profile" className="w-6 h-6" />
           </Link>
-          <Link to="/signup">Sign Up</Link>
+          <Link to="/signup">Sign up</Link>
           <Link to="/shoppingcart">
             <img src={CartIcon} alt="cart" className="w-6 h-6" />
           </Link>
