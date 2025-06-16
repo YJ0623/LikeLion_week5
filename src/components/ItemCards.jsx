@@ -17,13 +17,13 @@ const ItemCards = ({ item }) => {
       </div>
 
       <div className="p-4">
-        <h2 className=" text-purple-700 font-inter font-bold text-[10.2px] leading-[16px] tracking-normal">
+        <h2 className=" text-purple-700 font-inter font-bold text-[10px] leading-[16px] tracking-normal">
           {item.category}</h2>
-        <h2 className="font-inter font-bold text-[15.3px] leading-[28px] tracking-normal">
+        <h2 className="font-inter font-bold text-[16px] leading-[28px] tracking-normal">
           {item.name}</h2>
         <div className="flex items-center justify-between mt-2">
-          <h2 className="font-inter font-bold text-[15.3px] leading-[28px] tracking-normal ">
-            {item.price}</h2>
+          <h2 className="font-inter font-bold text-[16px] leading-[28px] tracking-normal ">
+            ${item.price}</h2>
           <AddButton onClick={()=>{swal("장바구니에 담으시겠습니까?", {
             buttons: ["아니요", "네"],
           });}}/>

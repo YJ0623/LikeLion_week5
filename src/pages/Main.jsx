@@ -3,14 +3,14 @@ import ItemCards from "../components/ItemCards";
 
 export const Main=()=>{
   return (
-    <section className="dt:px-20 ph:px-5">
-      <div className="font-inter font-bold text-[25.5px] leading-[36px] mt-4">
+    <section className="dt:px-20 ph:px-5 mb-20">
+      <div className="font-inter font-bold text-[26px] leading-[36px] mt-4">
         Welcome to ShopMall</div>
 
-      <div className="font-inter text-[13.6px] leading-[24px]">Discover our latest products and deals</div>
+      <div className="font-inter text-[14px] leading-[24px]">Discover our latest products and deals</div>
 
       <div className="flex items-center justify-between mt-3 mb-3">
-        <div className="font-inter text-[20.4px] leading-[32px] font-semibold">Featured Products</div>
+        <div className="font-inter text-[20px] leading-[32px] font-semibold">Featured Products</div>
         <div className="text-[#4f46E5] cursor-pointer">View All</div>
       </div>
 
